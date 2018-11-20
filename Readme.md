@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Ержан](https://up.htmlacademy.ru/htmlcss/23/user/168235).
-* Наставник: `Неизвестно`.
+* Наставник: [Владислав Балабанович](https://htmlacademy.ru/profile/balabanovich).
 
 ---
 
