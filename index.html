@@ -1,12 +1,120 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Глейси</title>
-  </head>
-  <body>
+<head>
+	<meta charset="utf-8">
+	<title>главная Глейси</title>
+</head>
+<body>
+	<header class="main-header">
+		<nav class="main-navigation">
+			<a class="main-header-logo" href="index.html">
+				<img src="img/logo.svg" width="154" height="70" alt="Логотип магазина «Глэйси»">
+			</a>
+			<ul class="site-navigation">
+				<li><a href="catalog.html">Каталог</a></li>
+				<li><a href="#">Доставка и оплата</a></li>
+				<li><a href="#">О Компании</a></li>
+			</ul>
+			<ul class="user-navigation">
+				<li class="search-link">Поиск</li>
+				<li class="login-link">Вход</li>
+				<li class="basket-link">Корзина</li>
+			</ul>
+		</nav>
+		<p class="work-time">С 10 до 20, ежедневно<br>
+			<b>8 812 450-25-25</b>
+		</p>
+	</header>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+	<main class="container">
+		<div class="promotion">
+			<section class="promo">
+				<h2>Малинка даром!</h2>
+				<p>При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.</p>
+				<a href="#"><span class="present">Хочу варенье!</span></a>
+			</section>
+			<section class="promo-button">
+				<h2>Шоколадки даром!</h2>
+				<p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
+				<a href="#"><span class="promo-button">Хочу шоколадки!</span></a>
+			</section>
+		</div>
+		<section class="top">
+			<h2 class="visually-hidden">Популярные виды мороженного</h2>
+			<ul class="top-price">
+				<li>
+					<h3>
+						Сливочное с апельсиновым джемом и цитрусовой стружкой
+					</h3>
+					<p>
+						<img src="http://placehold.it/150x100">310<span class="weight">₽/кг</span>
+					</p>
+				</li>
+				<li>
+					<h3>
+						Сливочно-кофейное с кусочками шоколада
+					</h3>
+					<p>
+						<img src="http://placehold.it/150x100">380<span class="weight">₽/кг</span>
+					</p>
+				</li>
+				<li>
+					<h3>
+						Сливочно-клубничное с присыпкой из белого шоколада
+					</h3>
+					<p>
+						<img src="http://placehold.it/150x100">355<span class="weight">₽/кг</span>
+					</p>
+				</li>
+				<li>
+					<h3>
+						Сливочное крем-брюле с карамельной подливкой
+					</h3>
+					<p>
+						<img src="http://placehold.it/150x100">415<span class="weight">₽/кг</span>
+					</p>
+				</li>
+			</ul>
+		</section>
+		<section class="about-glacy">
+			<h2>Магазин Глэйси — это онлайн- и офлайн-магазин по продаже мороженого собственного производства на развес</h2>
+			<p>Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
+			<p>
+			Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья. </p>
+			<p>Закупка ингредиентов  производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.</p>
+			<p>Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус.</p>
+		</section>
+		<article class="blog-news">
+			<span>Новое в нашем блоге</span>
+			<h2>10 способов сервировки
+				фруктовых щербетов к
+			столу</h2>							
+		</article>
+		<section class="subscribe">
+			<p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =) </p>
+		</section>
 
-  </body>
+	</main>
+	<footer class="main-footer">
+		<div class="foter-social">
+			<ul>
+				<li><a class="social-button" href="#">Твиттер</a></li>
+				<li><a class="social-button" href="#">Инстаграм</a></li>
+				<li><a class="social-button" href="#">Фейсбук</a></li>
+				<li><a class="social-button" href="#">Вконтакте</a></li>
+			</ul>
+		</div class="footer-about">
+		<div>
+			<p>
+				<a href="#">Для поставщиков</a>
+			</p><br>
+			<p><a href="#">О производителе</a></p>
+			<p><a href="#">Наши документы</a></p>
+			<p><a href="#">Экологические стандарты</a></p>
+		</div>
+		<p>Сделано в HTML Academy © 2017</p>
+
+	</footer>
+
+</body>
 </html>
